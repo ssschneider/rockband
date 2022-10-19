@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.voltar {
+    font-size: 3.2rem;
+    padding: 5px;
+    margin: 32px;
+    transition: 0.8s ease-in-out;
+}
+
+.voltar:hover {
+    letter-spacing: 2px;
+}
+
+.voltar, label, input {
+    font-family: 'Maiden Orange', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 0 auto;
+}
+
+h1, a, h2 {
+    font-family: 'Metal Mania', cursive;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 10rem;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 32px;
+} 
+
+label {
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    font-size: 2.4rem;
+    padding: 12px 24px;
+    color: #320303;
+    margin-bottom: 24px;
+}
+
+.entrar {
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    font-size: 3rem;
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px;
+    transition: background-color 0.8s ease-in-out;
+}
+
+.entrar:hover {
+    letter-spacing: 5px;
+    background-color: #f1f1f1;
+    color: #320303;
+}

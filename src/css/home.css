@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 80px;
+}
+
+.content h1, .content .entrar {
+    font-family: 'Metal Mania', cursive;
+}
+
+.content h1 {
+    font-size: 10rem;
+    margin-bottom: 12px;
+}
+
+.content h2, .content .cadastro {
+    font-family: 'Maiden Orange', sans-serif;
+}
+
+.content h2 {
+    font-size: 4rem;
+}
+
+.content .entrar {
+    background-color: #f1f1f1;
+    color: #320303;
+    font-size: 3rem;
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px;
+    margin: 48px 0 24px;
+    transition: 0.5s ease-in-out;
+}
+
+.content .entrar:hover {
+    letter-spacing: 5px;
+}
+
+.content .cadastro {
+    text-decoration: underline;
+    font-size: 2.4rem;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.content .cadastro:hover {
+    opacity: 0.7;
+}
+
+img {
+    height: 99.5vh;
+}
+
+.content h1::selection, .content h2::selection {
+    background-color: #0e0e0e;
+    color: #320303;
+}
+
+.content a::selection {
+    background-color: #320303;
+    color: #f1f1f1;
+}

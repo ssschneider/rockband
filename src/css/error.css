@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.voltar {
+    font-size: 3.2rem;
+    padding: 5px;
+    margin: 32px;
+    transition: 0.8s ease-in-out;
+}
+
+.voltar:hover {
+    letter-spacing: 2px;
+}
+
+.voltar, p {
+    font-family: 'Maiden Orange', sans-serif;
+}
+
+h1, .feedback {
+    font-family: 'Metal Mania', cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 50px 0 4px;
+}
+
+p {
+    font-size: 3rem;
+    margin-bottom: 24px;
+}
+
+.feedback {
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    font-size: 3rem;
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+    margin: 32px auto;
+    transition: background-color 0.8s ease-in-out;
+}
+
+.feedback:hover {
+    letter-spacing: 5px;
+    background-color: #f1f1f1;
+    color: #320303;
+}

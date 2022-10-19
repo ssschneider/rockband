@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login {
+    font-size: 3.2rem;
+    padding: 5px;
+    margin: 32px;
+    text-align: right;
+    transition: 0.8s ease-in-out;
+}
+
+.login i {
+    font-size: 3rem;
+    padding-right: 4px;
+}
+
+.login:hover {
+    letter-spacing: 2px;
+}
+
+.login, label, input {
+    font-family: 'Maiden Orange', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin: 0 auto;
+}
+
+h1, p, .registrar {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 10rem;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 12px;
+}
+
+label {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.8rem;
+    padding: 12px 24px;
+    color: #320303;
+    margin-bottom: 12px;
+}
+
+.registrar {
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    font-size: 2.4rem;
+    border-radius: 16px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px 12px;
+    transition: background-color 0.8s ease-in-out;
+}
+
+.registrar:hover {
+    letter-spacing: 5px;
+    background-color: #f1f1f1;
+    color: #320303;
+}
